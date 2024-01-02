@@ -32,7 +32,6 @@ import java.util.Map;
 public class MainActivity2 extends AppCompatActivity {
 
     ListView listView;
-    List<coin> coin;
     ArrayAdapter<String> adapter;
     private long id = 0;
     private ArrayList<String> idd = new ArrayList<>();
@@ -69,7 +68,6 @@ public class MainActivity2 extends AppCompatActivity {
                             JSONArray Arr = jsonRes.getJSONArray("data");
 
                             ArrayList<String> coinNames = new ArrayList<>();
-                            coin = new ArrayList<>();
 
                             for (int i = 0; i < Arr.length(); i++) {
                                 JSONObject coinObj = Arr.getJSONObject(i);
