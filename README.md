@@ -1,4 +1,4 @@
-Android project using Java /n
+Android project using Java
 with coinmarketcap API
 
 Video:
